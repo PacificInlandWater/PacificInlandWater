@@ -1391,6 +1391,14 @@
       .about-photo-placeholder { aspect-ratio: 16/7; max-width: 400px; }
     }
 
+    /* Portrait phones: shrink logo and reduce negative margin so text doesn't overlap */
+    @media (orientation: portrait) and (max-width: 600px) {
+      .hero-eyebrow img {
+        width: 320px !important;
+        margin-bottom: -48px !important;
+      }
+    }
+
     @media (max-width: 768px) {
       .nav-links { display: none; }
       .hamburger { display: flex; }
