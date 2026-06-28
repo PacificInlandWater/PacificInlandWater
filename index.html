@@ -221,7 +221,6 @@
       padding-top: 80px;
     }
 
-    /* Animated water ripple overlay */
     #hero::before {
       content: '';
       position: absolute;
@@ -232,7 +231,6 @@
       pointer-events: none;
     }
 
-    /* Animated pipeline line */
     .hero-pipeline-bg {
       position: absolute;
       bottom: 120px;
@@ -248,7 +246,6 @@
       50% { opacity: 0.25; transform: scaleX(1); }
     }
 
-    /* Floating particles */
     .hero-particles {
       position: absolute;
       inset: 0;
@@ -394,7 +391,6 @@
       text-transform: uppercase;
     }
 
-    /* Counter animation */
     .count-up { display: inline; }
 
     /* ============================================================
@@ -450,12 +446,10 @@
       line-height: 1.6;
     }
 
-    /* Pipeline diagram */
     .pipeline-diagram {
       background: var(--navy);
       border-radius: 12px;
       padding: 36px 40px;
-      /* SWAP: replace with concept illustration when available */
     }
 
     .pipeline-row {
@@ -555,9 +549,7 @@
     /* ============================================================
        CRISIS
     ============================================================ */
-    #crisis {
-      background: var(--white);
-    }
+    #crisis { background: var(--white); }
 
     .crisis-stat-block {
       display: grid;
@@ -659,9 +651,7 @@
       letter-spacing: 0.06em;
       margin-bottom: 12px;
     }
-    .carousel-source span {
-      color: var(--teal);
-    }
+    .carousel-source span { color: var(--teal); }
 
     .carousel-headline {
       font-size: 1.15rem;
@@ -740,9 +730,7 @@
     /* ============================================================
        COASTAL LESSON
     ============================================================ */
-    #coastal-lesson {
-      background: var(--offwhite);
-    }
+    #coastal-lesson { background: var(--offwhite); }
 
     .coastal-stats {
       display: grid;
@@ -809,9 +797,7 @@
     /* ============================================================
        PROJECT DETAIL
     ============================================================ */
-    #project {
-      background: var(--white);
-    }
+    #project { background: var(--white); }
 
     .project-heading-teal {
       font-size: clamp(1rem, 2vw, 1.2rem);
@@ -820,7 +806,6 @@
       margin-bottom: 48px;
     }
 
-    /* Infrastructure list */
     .infra-list {
       display: flex;
       flex-direction: column;
@@ -864,9 +849,7 @@
       color: #334155;
       line-height: 1.7;
     }
-    /* SWAP: replace with concept illustration when available */
 
-    /* Phases timeline */
     .phases-heading {
       font-size: clamp(1.5rem, 2.5vw, 2rem);
       font-weight: 700;
@@ -948,7 +931,6 @@
       text-align: right;
     }
 
-    /* Basin impact */
     .basin-impact {
       background: var(--navy);
       border-radius: 14px;
@@ -1004,7 +986,6 @@
     }
     .basin-body + .basin-body { margin-top: 16px; }
 
-    /* SNWA context */
     .snwa-section {
       background: var(--offwhite);
       border-radius: 12px;
@@ -1027,11 +1008,9 @@
     .snwa-body + .snwa-body { margin-top: 16px; }
 
     /* ============================================================
-       SITE IMAGES (PPILocation / PPIConcept before/after toggle)
+       SITE IMAGES
     ============================================================ */
-    .site-imagery {
-      margin: 60px 0;
-    }
+    .site-imagery { margin: 60px 0; }
     .site-imagery h3 {
       font-size: 1.15rem;
       font-weight: 700;
@@ -1053,11 +1032,7 @@
       user-select: none;
     }
 
-    .image-toggle-base {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
+    .image-toggle-base { display: block; width: 100%; height: auto; }
 
     .image-toggle-overlay {
       position: absolute;
@@ -1125,9 +1100,7 @@
     /* ============================================================
        ABOUT
     ============================================================ */
-    #about {
-      background: var(--white);
-    }
+    #about { background: var(--white); }
 
     .about-grid {
       display: grid;
@@ -1154,31 +1127,6 @@
       color: #334155;
       line-height: 1.75;
       margin-bottom: 16px;
-    }
-
-    .about-photo-placeholder {
-      /* SWAP: replace with founder photo */
-      background: var(--navy);
-      border-radius: 12px;
-      aspect-ratio: 3/4;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: var(--shadow);
-    }
-    .about-initials {
-      width: 100px;
-      height: 100px;
-      background: rgba(255,255,255,0.1);
-      border: 2px solid rgba(255,255,255,0.2);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2rem;
-      font-weight: 700;
-      color: var(--white);
-      letter-spacing: 0.05em;
     }
 
     .about-quote {
@@ -1225,9 +1173,7 @@
       box-shadow: 0 20px 60px rgba(0,0,0,0.2);
     }
 
-    .form-group {
-      margin-bottom: 20px;
-    }
+    .form-group { margin-bottom: 20px; }
     .form-group label {
       display: block;
       font-size: 0.85rem;
@@ -1282,10 +1228,7 @@
       box-shadow: 0 6px 20px rgba(13,158,142,0.35);
     }
 
-    .contact-info {
-      text-align: center;
-      margin-top: 36px;
-    }
+    .contact-info { text-align: center; margin-top: 36px; }
     .contact-info-item {
       display: inline-flex;
       align-items: center;
@@ -1313,22 +1256,9 @@
       margin-bottom: 40px;
     }
 
-    .footer-logo-name {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--white);
-      margin-bottom: 4px;
-    }
-    .footer-logo-tag {
-      font-size: 0.8rem;
-      color: var(--teal);
-      font-weight: 500;
-      margin-bottom: 8px;
-    }
-    .footer-llc {
-      font-size: 0.8rem;
-      color: rgba(255,255,255,0.45);
-    }
+    .footer-logo-name { font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 4px; }
+    .footer-logo-tag { font-size: 0.8rem; color: var(--teal); font-weight: 500; margin-bottom: 8px; }
+    .footer-llc { font-size: 0.8rem; color: rgba(255,255,255,0.45); }
 
     .footer-col h4 {
       font-size: 0.8rem;
@@ -1388,23 +1318,11 @@
       .phases-grid { grid-template-columns: 1fr; max-width: 480px; }
       .basin-stats { grid-template-columns: repeat(2, 1fr); }
       .about-grid { grid-template-columns: 1fr; }
-      .about-photo-placeholder { aspect-ratio: 16/7; max-width: 400px; }
     }
 
-    /* Portrait phones: shrink logo and reduce negative margin so text doesn't overlap */
     @media (orientation: portrait) and (max-width: 600px) {
-      .hero-eyebrow img {
-        width: 320px !important;
-        margin-bottom: -48px !important;
-      }
-
-      /* Pull stat bar out of absolute positioning so it flows below the buttons */
-      #hero {
-        padding-bottom: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
+      .hero-eyebrow img { width: 320px !important; margin-bottom: -48px !important; }
+      #hero { padding-bottom: 0; display: flex; flex-direction: column; justify-content: center; }
       .hero-stats {
         position: static;
         margin-top: 32px;
@@ -1418,13 +1336,9 @@
     @media (max-width: 768px) {
       .nav-links { display: none; }
       .hamburger { display: flex; }
-
-      .hero-stats {
-        grid-template-columns: repeat(2, 1fr);
-      }
+      .hero-stats { grid-template-columns: repeat(2, 1fr); }
       .hero-stat:nth-child(2) { border-right: none; }
       .hero-stat:nth-child(3) { border-top: 1px solid rgba(255,255,255,0.07); }
-
       .solution-cards { grid-template-columns: 1fr; }
       .crisis-stat-block { grid-template-columns: 1fr; }
       .crisis-stat { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.08); }
@@ -1446,15 +1360,12 @@
       .hero-headline { font-size: 1.7rem; }
       .hero-stats { grid-template-columns: repeat(2, 1fr); }
       .carousel-card { padding: 20px; }
-      .about-initials { width: 72px; height: 72px; font-size: 1.5rem; }
     }
   </style>
 </head>
 <body>
 
-  <!-- ============================================================
-       NAVIGATION
-  ============================================================ -->
+  <!-- NAVIGATION -->
   <nav id="nav" role="navigation" aria-label="Main navigation">
     <div class="nav-inner">
       <a href="#" class="nav-logo" aria-label="Pacific Inland Water Resources LLC home">
@@ -1479,9 +1390,7 @@
     </div>
   </nav>
 
-  <!-- ============================================================
-       HERO
-  ============================================================ -->
+  <!-- HERO -->
   <section id="hero" aria-label="Hero">
     <div class="hero-particles" id="hero-particles" aria-hidden="true"></div>
     <div class="hero-pipeline-bg" aria-hidden="true"></div>
@@ -1505,7 +1414,7 @@
 
     <div class="hero-stats" aria-label="Key statistics">
       <div class="hero-stat fade-up">
-        <span class="hero-stat-num" data-target="560000" data-suffix=" AF/yr">560,000 AF/yr</span>
+        <span class="hero-stat-num">560,000 AF/yr</span>
         <span class="hero-stat-label">Pacific Ocean Supply at Phase 3</span>
       </div>
       <div class="hero-stat fade-up delay-1">
@@ -1517,25 +1426,22 @@
         <span class="hero-stat-label">Colorado River Structural Deficit Addressed</span>
       </div>
       <div class="hero-stat fade-up delay-3">
-        <span class="hero-stat-num">1,481 MWe</span>
+        <span class="hero-stat-num">1,386&ndash;1,848 MWe</span>
         <span class="hero-stat-label">Nuclear Capacity at Phase 3</span>
       </div>
     </div>
   </section>
 
-  <!-- ============================================================
-       SOLUTION PREVIEW
-  ============================================================ -->
+  <!-- SOLUTION PREVIEW -->
   <section id="solution-preview" class="section-pad" aria-labelledby="solution-heading">
     <div class="container">
       <span class="eyebrow fade-up">A Glimpse of the Solution</span>
-      <h2 id="solution-heading" class="section-heading fade-up">Before the Problem — A Glimpse of the Solution</h2>
-      <p class="section-sub fade-up">Project Pacific Inland addresses the Colorado River water crisis with new infrastructure built where California's regulatory framework cannot reach it.</p>
+      <h2 id="solution-heading" class="section-heading fade-up">Before the Problem &mdash; A Glimpse of the Solution</h2>
+      <p class="section-sub fade-up">Project Pacific Inland addresses the Colorado River water crisis with new infrastructure built where California&rsquo;s regulatory framework cannot reach it.</p>
 
       <div class="solution-cards">
         <div class="solution-card fade-up">
           <div class="solution-card-icon">
-            <!-- Route icon -->
             <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2 13 Q7 5 13 13 Q19 21 24 13" stroke="#1A7FC1" stroke-width="2.2" stroke-linecap="round" fill="none"/>
               <path d="M20 10 L24 13 L20 16" stroke="#1A7FC1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
@@ -1547,7 +1453,6 @@
 
         <div class="solution-card fade-up delay-1">
           <div class="solution-card-icon">
-            <!-- Nuclear/atom icon -->
             <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="13" cy="13" r="3" stroke="#1A7FC1" stroke-width="2"/>
               <ellipse cx="13" cy="13" rx="10" ry="4" stroke="#1A7FC1" stroke-width="1.6" transform="rotate(0 13 13)"/>
@@ -1556,24 +1461,22 @@
             </svg>
           </div>
           <h3>Nuclear. 24/7. Zero Carbon.</h3>
-          <p>NuScale Small Modular Reactors power the campus at 95% capacity factor, year-round, without fossil fuels or intermittency.</p>
+          <p>NuScale VOYGR-6 Small Modular Reactors (6 &times; 77 MWe, NRC-approved May 2025) power the campus at 95% capacity factor, year-round, without fossil fuels or intermittency.</p>
         </div>
 
         <div class="solution-card fade-up delay-2">
           <div class="solution-card-icon">
-            <!-- Water droplet icon -->
             <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M13 2 C13 2 5 10 5 16 C5 20.4 8.6 24 13 24 C17.4 24 21 20.4 21 16 C21 10 13 2 13 2Z" stroke="#1A7FC1" stroke-width="2" fill="rgba(26,127,193,0.1)"/>
               <path d="M9 17 Q11 14 14 16" stroke="#1A7FC1" stroke-width="1.5" stroke-linecap="round" fill="none"/>
             </svg>
           </div>
           <h3>Water. Hydrogen. Minerals. Storage.</h3>
-          <p>The campus co-produces potable water, green hydrogen, critical minerals from the brine stream, and grid-scale energy storage from the Lucy Gray Mountains.</p>
+          <p>The campus co-produces potable water, green hydrogen and ammonia, critical minerals from the brine stream using zero-waste ZLD design, and grid-scale energy storage from the Lucy Gray Mountains.</p>
         </div>
 
         <div class="solution-card fade-up delay-3">
           <div class="solution-card-icon">
-            <!-- Shield/map pin icon -->
             <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M13 2 L22 6 L22 14 C22 18.8 17.5 22.6 13 24 C8.5 22.6 4 18.8 4 14 L4 6 Z" stroke="#1A7FC1" stroke-width="2" fill="rgba(26,127,193,0.1)"/>
               <path d="M9 13 L12 16 L17 10" stroke="#1A7FC1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
@@ -1586,7 +1489,6 @@
 
       <!-- Pipeline diagram -->
       <div class="pipeline-diagram fade-up">
-        <!-- SWAP: replace with concept illustration when available -->
         <div class="pipeline-row">
           <div class="pipeline-node">
             <div class="pipeline-node-circle">
@@ -1616,16 +1518,14 @@
               </svg>
             </div>
             <div class="pipeline-node-title">Primm, Nevada</div>
-            <div class="pipeline-node-sub">SMR Campus<br>VOYGR-4 + PRIME</div>
+            <div class="pipeline-node-sub">SMR Campus<br>VOYGR-6 &bull; NRC-Approved</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============================================================
-       THE CRISIS
-  ============================================================ -->
+  <!-- THE CRISIS -->
   <section id="crisis" class="section-pad" aria-labelledby="crisis-heading">
     <div class="container">
       <span class="eyebrow fade-up">The Colorado River</span>
@@ -1634,9 +1534,9 @@
 
       <div class="crisis-stat-block fade-up">
         <div class="crisis-stat">
-          <span class="crisis-stat-num">34%</span>
+          <span class="crisis-stat-num">29%</span>
           <span class="crisis-stat-label">Lake Mead Current Capacity</span>
-          <span class="crisis-stat-note">As of May 2026</span>
+          <span class="crisis-stat-note">As of June 2026</span>
         </div>
         <div class="crisis-stat">
           <span class="crisis-stat-num">1,020 ft</span>
@@ -1651,7 +1551,7 @@
       </div>
 
       <p class="crisis-body fade-up">
-        The Colorado River Compact of 1922 allocated water based on an unusually wet period. The actual historical average flow is 14.6 million acre-feet per year. Total allocations exceed 16.5 million acre-feet. The system has been over-allocated since it was designed. Decades of drought have turned a slow-building problem into an active crisis.
+        The Colorado River Compact of 1922 allocated water based on an unusually wet period. The actual historical average flow is 14.6 million acre-feet per year. Total allocations exceed 16.5 million acre-feet. The system has been over-allocated since it was designed. Decades of drought have turned a slow-building problem into an active crisis. Lake Mead slipped below 1,050 feet in early June 2026, and Bureau of Reclamation projections place its most probable elevation at 1,020 feet by July 2027 &mdash; more than 20 feet below the 2022 record low.
       </p>
 
       <span class="carousel-section-label fade-up">Recent Coverage</span>
@@ -1660,7 +1560,7 @@
         <div class="carousel-track">
           <div class="carousel-card">
             <div class="carousel-source"><span>Newsweek</span> &nbsp;&mdash;&nbsp; June 4, 2026</div>
-            <h3 class="carousel-headline">Lake Mead and Lake Powell Face "System Crash" by 2028, Scientists Warn</h3>
+            <h3 class="carousel-headline">Lake Mead and Lake Powell Face &ldquo;System Crash&rdquo; by 2028, Scientists Warn</h3>
             <p class="carousel-summary">University of Colorado researchers warn the reservoir system faces potential collapse within years. A 2.6 million acre-foot annual shortfall between supply and use means reservoir levels continue falling even with conservation.</p>
             <a href="https://www.newsweek.com/lake-mead-lake-powell-face-system-crash-by-2028-scientists-warn-12030877" class="carousel-link" target="_blank" rel="noopener noreferrer">
               Read Article
@@ -1670,7 +1570,7 @@
           <div class="carousel-card">
             <div class="carousel-source"><span>Newsweek</span> &nbsp;&mdash;&nbsp; May 2026</div>
             <h3 class="carousel-headline">Lake Mead Water Levels Could Fall 20 Feet Below the Current Record Low</h3>
-            <p class="carousel-summary">Bureau of Reclamation projects Lake Mead could reach 1,020 feet by July 2027 — 20 feet below the 2022 record low. At 1,035 feet, only five of Hoover Dam's 17 turbines can generate power.</p>
+            <p class="carousel-summary">Bureau of Reclamation projects Lake Mead could reach 1,020 feet by July 2027 &mdash; 20 feet below the 2022 record low. At 1,035 feet, only five of Hoover Dam&rsquo;s 17 turbines can generate power.</p>
             <a href="https://www.newsweek.com/lake-mead-water-levels-could-fall-20-feet-below-record-low-11962460" class="carousel-link" target="_blank" rel="noopener noreferrer">
               Read Article
               <svg viewBox="0 0 14 14" fill="none"><path d="M2 7 H12 M8 3 L12 7 L8 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -1678,7 +1578,7 @@
           </div>
           <div class="carousel-card">
             <div class="carousel-source"><span>Las Vegas Review-Journal</span> &nbsp;&mdash;&nbsp; May 2026</div>
-            <h3 class="carousel-headline">Lake Mead's Outlook Just Went From Bad to Historically Bad</h3>
+            <h3 class="carousel-headline">Lake Mead&rsquo;s Outlook Just Went From Bad to Historically Bad</h3>
             <p class="carousel-summary">Federal forecasters predict Lake Mead will drop more than 20 feet below its 2022 record low within two years, driven by a historically poor snowpack and expiring operating agreements.</p>
             <a href="https://www.reviewjournal.com/news/environment/lake-meads-outlook-just-went-from-bad-to-historically-bad-3824939/" class="carousel-link" target="_blank" rel="noopener noreferrer">
               Read Article
@@ -1688,7 +1588,7 @@
           <div class="carousel-card">
             <div class="carousel-source"><span>ABC News</span> &nbsp;&mdash;&nbsp; May 2026</div>
             <h3 class="carousel-headline">Water Supplies Along the Colorado River Basin in Peril, Experts Say</h3>
-            <p class="carousel-summary">The Bureau of Reclamation's 24-month study projects Lake Mead could reach a record low of 1,036 feet in 2026. Water rights were established during an anomalously wet period — the river has never produced what was allocated.</p>
+            <p class="carousel-summary">The Bureau of Reclamation&rsquo;s 24-month study projects Lake Mead could reach a record low of 1,036 feet in 2026. Water rights were established during an anomalously wet period &mdash; the river has never produced what was allocated.</p>
             <a href="https://abcnews.com/US/water-supplies-colorado-river-basin-peril-experts/story?id=133107551" class="carousel-link" target="_blank" rel="noopener noreferrer">
               Read Article
               <svg viewBox="0 0 14 14" fill="none"><path d="M2 7 H12 M8 3 L12 7 L8 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -1708,14 +1608,12 @@
     </div>
   </section>
 
-  <!-- ============================================================
-       COASTAL LESSON
-  ============================================================ -->
+  <!-- COASTAL LESSON -->
   <section id="coastal-lesson" class="section-pad" aria-labelledby="coastal-heading">
     <div class="container">
       <span class="eyebrow fade-up">The Poseidon Precedent</span>
       <h2 id="coastal-heading" class="section-heading fade-up">California Tried. The Regulator Said No.</h2>
-      <p class="section-sub fade-up">In 2022, the California Coastal Commission unanimously rejected Poseidon Water's Huntington Beach desalination plant after 22 years of permitting attempts and $1.4 billion in development investment. Governor Newsom called the rejection a "big mistake." The Commission voted 12-0 against him.</p>
+      <p class="section-sub fade-up">In 2022, the California Coastal Commission unanimously rejected Poseidon Water&rsquo;s Huntington Beach desalination plant after 22 years of permitting attempts and $1.4 billion in development investment. Governor Newsom called the rejection a &ldquo;big mistake.&rdquo; The Commission voted 12-0 against him.</p>
 
       <div class="coastal-stats fade-up">
         <div class="coastal-stat">
@@ -1746,7 +1644,7 @@
           <div class="carousel-card">
             <div class="carousel-source"><span>Los Angeles Times</span> &nbsp;&mdash;&nbsp; May 13, 2022</div>
             <h3 class="carousel-headline">California Coastal Commission Rejects Plan for Poseidon Water Desalination Plant</h3>
-            <p class="carousel-summary">Despite worsening drought and Governor Newsom's support, commissioners voted unanimously against the $1.4 billion plant. The decision sent the message that coastal desalination faces major structural hurdles in California.</p>
+            <p class="carousel-summary">Despite worsening drought and Governor Newsom&rsquo;s support, commissioners voted unanimously against the $1.4 billion plant. The decision sent the message that coastal desalination faces major structural hurdles in California.</p>
             <a href="https://www.aol.com/news/california-coastal-commission-rejects-plan-022419326.html" class="carousel-link" target="_blank" rel="noopener noreferrer">
               Read Article
               <svg viewBox="0 0 14 14" fill="none"><path d="M2 7 H12 M8 3 L12 7 L8 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -1755,7 +1653,7 @@
           <div class="carousel-card">
             <div class="carousel-source"><span>CalMatters</span> &nbsp;&mdash;&nbsp; May 13, 2022</div>
             <h3 class="carousel-headline">Commission Kills Huntington Beach Desalination Plant After 20-Year Fight</h3>
-            <p class="carousel-summary">The unanimous decision sealed the project's fate and set a high bar for future coastal desalination. The commission cited harm to marine life, cost impacts, and sea-level rise risk.</p>
+            <p class="carousel-summary">The unanimous decision sealed the project&rsquo;s fate and set a high bar for future coastal desalination. The commission cited harm to marine life, cost impacts, and sea-level rise risk.</p>
             <a href="https://calmatters.org/environment/2022/05/california-desalination-plant-coastal-commission/" class="carousel-link" target="_blank" rel="noopener noreferrer">
               Read Article
               <svg viewBox="0 0 14 14" fill="none"><path d="M2 7 H12 M8 3 L12 7 L8 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -1763,7 +1661,7 @@
           </div>
           <div class="carousel-card">
             <div class="carousel-source"><span>Voice of OC</span> &nbsp;&mdash;&nbsp; May 13, 2022</div>
-            <h3 class="carousel-headline">Coastal Commission Unanimously Rejects Poseidon's Huntington Beach Plant Proposal</h3>
+            <h3 class="carousel-headline">Coastal Commission Unanimously Rejects Poseidon&rsquo;s Huntington Beach Plant Proposal</h3>
             <p class="carousel-summary">Twenty years of permitting ended with a unanimous vote. Audience members stood and cheered. The plant would have returned half of its 100 million daily gallons as concentrated brine to the ocean.</p>
             <a href="https://voiceofoc.org/2022/05/3153068/" class="carousel-link" target="_blank" rel="noopener noreferrer">
               Read Article
@@ -1783,21 +1681,19 @@
       </div>
 
       <blockquote class="teal-callout fade-up">
-        "Project Pacific Inland plans to site its processing campus in Primm, Nevada specifically to eliminate the California Coastal Commission barrier that ended the Huntington Beach project. Only the offshore intake falls under Coastal Commission review, and it is positioned in a legacy industrial marine zone with 70 years of regulatory precedent. The intake design is non-traditional, modular, expandable, and designed to be shared with California if they ever need to tap into it for future California based desalination projects. The pipeline itself is also designed to be shared in the instance that California wants to tap into it."
+        &ldquo;Project Pacific Inland plans to site its processing campus in Primm, Nevada specifically to eliminate the California Coastal Commission barrier that ended the Huntington Beach project. Only the offshore intake falls under Coastal Commission review, and it is positioned in a legacy industrial marine zone with 70 years of regulatory precedent. The intake design is non-traditional, modular, expandable, and designed to be shared with California if they ever need to tap into it for future California based desalination projects. The pipeline itself is also designed to be shared in the instance that California wants to tap into it.&rdquo;
       </blockquote>
     </div>
   </section>
 
-  <!-- ============================================================
-       PROJECT DETAIL
-  ============================================================ -->
+  <!-- PROJECT DETAIL -->
   <section id="project" class="section-pad" aria-labelledby="project-heading">
     <div class="container">
       <span class="eyebrow fade-up">The Infrastructure</span>
       <h2 id="project-heading" class="section-heading fade-up">Project Pacific Inland</h2>
       <p class="project-heading-teal fade-up">A New Water Supply for the American West. From the Pacific Ocean to Southern Nevada.</p>
 
-      <!-- Site imagery: before/after comparison slider -->
+      <!-- Site imagery -->
       <div class="site-imagery fade-up">
         <h3>The Primm, Nevada Site</h3>
         <p>Drag to compare the existing site to the proposed campus concept plan. (Note: Concept plan is illustrative and subject to change)</p>
@@ -1827,39 +1723,34 @@
           <div class="infra-content">
             <h3>Offshore Subsea Well Grid</h3>
             <p>90 to 150 individual intake wells on a shared manifold, positioned within the legacy Wilmington Oil Field production zone approximately one mile from the Port of Long Beach. Legacy zone siting provides 70 years of regulatory precedent, comprehensive subsurface records, and reduced environmental opposition compared to undocumented offshore areas.</p>
-            <!-- SWAP: replace with concept illustration when available -->
           </div>
         </div>
         <div class="infra-item fade-up">
           <div class="infra-num">2</div>
           <div class="infra-content">
             <h3>200-Mile Seawater Pipeline</h3>
-            <p>54 to 72-inch diameter pipeline running via I-710, I-10, and I-15 from the Port of Long Beach to Primm, Nevada. The inland routing avoids coastal habitat and removes the facility from California Coastal Commission jurisdiction over the onshore plant.</p>
-            <!-- SWAP: replace with concept illustration when available -->
+            <p>72-inch diameter, API 5L Grade X52&ndash;X60 high-strength steel pipeline running via I-710, I-10, and I-15 from the Port of Long Beach to Primm, Nevada. High-pressure sections at Cajon Pass (800&ndash;1,000 psi operating pressure) require field-welded joints and 1.0&ndash;1.25 inch wall thickness. Pumping stations connect to the California SCE grid as commercial industrial customers; the nuclear campus sells surplus power to NV Energy and CAISO independently. Pelton turbines on the Cajon Pass descent provide pressure control and recover approximately 10.9 MW per pipe. The inland routing avoids coastal habitat and removes the facility from California Coastal Commission jurisdiction over the onshore plant.</p>
           </div>
         </div>
         <div class="infra-item fade-up">
           <div class="infra-num">3</div>
           <div class="infra-content">
             <h3>Nuclear-Powered Processing Campus</h3>
-            <p>NuScale Small Modular Reactor campus at Primm, Nevada (35.645°N, 115.330°W). Phase 1: VOYGR-4 architecture, 3 of 4 bays occupied each with 77MWe reactors, 231 MWe. Phase 3: adds a VOYGR-6 equivalent architecture with 8 total modules at approximately 1,481 MWe. The NuScale Power Module is the only Small Modular Reactor with NRC design approval in the United States.</p>
-            <!-- SWAP: replace with concept illustration when available -->
+            <p>NuScale Small Modular Reactor campus at Primm, Nevada (35.645&deg;N, 115.330&deg;W). Phase 1: one VOYGR-6 building &mdash; 6 &times; 77 MWe modules = 462 MWe, NRC design-approved May 2025. Phase 2: a second VOYGR-6 building adds 462 MWe (924 MWe cumulative). Phase 3: a third VOYGR-6 building brings the baseline to 1,386 MWe across 18 modules; if the VOYGR-12 configuration (12 &times; 77 MWe = 924 MWe) receives NRC approval before Phase 3 construction, Building 3 can be upgraded to reach 1,848 MWe across 24 modules. Every module across all buildings is the identical certified 77 MWe NuScale Power Module &mdash; the only Small Modular Reactor with NRC design approval in the United States. Phase 4 (optional): a fourth building if demand conditions warrant.</p>
           </div>
         </div>
         <div class="infra-item fade-up">
           <div class="infra-num">4</div>
           <div class="infra-content">
             <h3>Desalination and Mineral Recovery Plant</h3>
-            <p>Seawater reverse osmosis desalination at Phase 1 scale of 50 million gallons per day, scaling to 500 MGD at Phase 3. Zero-liquid-discharge mineral recovery from the brine stream recovers lithium, boron, magnesium, and potassium, critical minerals on the US federal priority list.</p>
-            <!-- SWAP: replace with concept illustration when available -->
+            <p>Seawater reverse osmosis desalination at Phase 1 scale of 57 million gallons per day (the minimum self-cleaning velocity in a 72-inch pipeline sets this floor), scaling to 500 MGD at Phase 3. Zero-liquid-discharge (ZLD) mineral recovery converts every dissolved mineral in the brine into a commercial product: sodium chloride to chlor-alkali plants, magnesium chloride for dust suppression and de-icing markets, potassium sulfate for fertilizer, bromine for specialty chemicals, and calcium sulfate for construction materials. All residual streams are routed to CalPortland&rsquo;s Oro Grande cement plant (65 miles, Union Pacific rail access) as alternative raw materials. True zero solid waste design.</p>
           </div>
         </div>
         <div class="infra-item fade-up">
           <div class="infra-num">5</div>
           <div class="infra-content">
             <h3>Lucy Gray Mountains Energy Storage</h3>
-            <p>Gravitational mountain rail storage (ARES North America technology) and pumped hydro storage using the 1,654-foot elevation head of the Lucy Gray Mountains in Clark County, Nevada. Grid-scale storage supporting campus operations and NV Energy interconnection.</p>
-            <!-- SWAP: replace with concept illustration when available -->
+            <p>Gravitational mountain rail storage (ARES North America technology) and pumped hydro storage using the 1,654-foot elevation head of the Lucy Gray Mountains in Clark County, Nevada. Primary purpose: operational resilience during planned desalination plant or pipeline maintenance outages, ensuring the nuclear campus continues at full output and power is stored rather than curtailed. Secondary purpose: grid arbitrage revenue during normal operations. Grid-scale storage supporting campus operations and NV Energy interconnection.</p>
           </div>
         </div>
       </div>
@@ -1871,18 +1762,18 @@
         <div class="phase-card phase-1 fade-up">
           <span class="phase-badge">Phase 1</span>
           <h3>Initial Production</h3>
-          <div class="phase-row"><span class="phase-row-label">Water Output</span><span class="phase-row-val">50 MGD / 56,000 AF/yr</span></div>
-          <div class="phase-row"><span class="phase-row-label">Nuclear Capacity</span><span class="phase-row-val">231 MWe (VOYGR-4, 3 modules)</span></div>
-          <div class="phase-row"><span class="phase-row-label">Hydrogen</span><span class="phase-row-val">52,000 kg/day</span></div>
-          <div class="phase-row"><span class="phase-row-label">Population Served</span><span class="phase-row-val">~243,000</span></div>
+          <div class="phase-row"><span class="phase-row-label">Water Output</span><span class="phase-row-val">57 MGD / 63,800 AF/yr</span></div>
+          <div class="phase-row"><span class="phase-row-label">Nuclear Capacity</span><span class="phase-row-val">462 MWe (VOYGR-6, 6 modules)</span></div>
+          <div class="phase-row"><span class="phase-row-label">Hydrogen</span><span class="phase-row-val">~50,000 kg/day (logistics midpoint)</span></div>
+          <div class="phase-row"><span class="phase-row-label">Population Served</span><span class="phase-row-val">~277,000</span></div>
           <p class="phase-commission">Target commissioning: ~2038</p>
         </div>
         <div class="phase-card phase-2 fade-up delay-1">
           <span class="phase-badge">Phase 2</span>
           <h3>Expanded Production</h3>
           <div class="phase-row"><span class="phase-row-label">Water Output</span><span class="phase-row-val">150 MGD / 168,000 AF/yr</span></div>
-          <div class="phase-row"><span class="phase-row-label">Nuclear Capacity</span><span class="phase-row-val">731 MWe (+2 PRIME modules)</span></div>
-          <div class="phase-row"><span class="phase-row-label">Hydrogen</span><span class="phase-row-val">156,000 kg/day</span></div>
+          <div class="phase-row"><span class="phase-row-label">Nuclear Capacity</span><span class="phase-row-val">924 MWe (second VOYGR-6 building)</span></div>
+          <div class="phase-row"><span class="phase-row-label">Hydrogen</span><span class="phase-row-val">~130,000 kg/day</span></div>
           <div class="phase-row"><span class="phase-row-label">Population Served</span><span class="phase-row-val">~730,000</span></div>
           <p class="phase-commission">Target commissioning: ~2044</p>
         </div>
@@ -1890,8 +1781,8 @@
           <span class="phase-badge">Phase 3</span>
           <h3>Full Production</h3>
           <div class="phase-row"><span class="phase-row-label">Water Output</span><span class="phase-row-val">500 MGD / 560,000 AF/yr</span></div>
-          <div class="phase-row"><span class="phase-row-label">Nuclear Capacity</span><span class="phase-row-val">~1,481 MWe (8 total modules)</span></div>
-          <div class="phase-row"><span class="phase-row-label">Hydrogen</span><span class="phase-row-val">520,000+ kg/day</span></div>
+          <div class="phase-row"><span class="phase-row-label">Nuclear Capacity</span><span class="phase-row-val">1,386&ndash;1,848 MWe (18&ndash;24 modules)</span></div>
+          <div class="phase-row"><span class="phase-row-label">Hydrogen</span><span class="phase-row-val">~218,000 kg/day</span></div>
           <div class="phase-row"><span class="phase-row-label">Population Served</span><span class="phase-row-val">~2.4 million</span></div>
           <p class="phase-commission">Target commissioning: ~2050</p>
         </div>
@@ -1910,7 +1801,7 @@
             <span class="basin-stat-label">Colorado River Structural Deficit Addressed</span>
           </div>
           <div class="basin-stat">
-            <span class="basin-stat-num">5-6 ft</span>
+            <span class="basin-stat-num">5&ndash;6 ft</span>
             <span class="basin-stat-label">Lake Mead Equilibrium Elevation Gain</span>
           </div>
           <div class="basin-stat">
@@ -1918,22 +1809,20 @@
             <span class="basin-stat-label">Additional Hoover Dam Revenue to Bureau of Reclamation</span>
           </div>
         </div>
-        <p class="basin-body">At Phase 3, Project Pacific Inland removes 560,000 acre-feet per year of demand from the Colorado River system. Lake Mead's equilibrium elevation rises by approximately 5 to 6 feet above where it would otherwise be; a permanent shift as long as the project operates. Hoover Dam recovers generating capacity. Arizona's Central Arizona Project faces fewer shortage cuts. Mexico's 1944 Water Treaty delivery obligation becomes easier to meet.</p>
-        <p class="basin-body" style="margin-top:16px;">The Bureau of Reclamation earns an estimated $31.5 million per year in additional Hoover Dam power revenue at Phase 3, giving the federal government a direct financial interest in the project's success.</p>
+        <p class="basin-body">At Phase 3, Project Pacific Inland removes 560,000 acre-feet per year of demand from the Colorado River system. Lake Mead&rsquo;s equilibrium elevation rises by approximately 5 to 6 feet above where it would otherwise be &mdash; a permanent shift as long as the project operates. Hoover Dam recovers generating capacity. Arizona&rsquo;s Central Arizona Project faces fewer shortage cuts. Mexico&rsquo;s 1944 Water Treaty delivery obligation becomes easier to meet.</p>
+        <p class="basin-body" style="margin-top:16px;">The Bureau of Reclamation earns an estimated $31.5 million per year in additional Hoover Dam power revenue at Phase 3, giving the federal government a direct financial interest in the project&rsquo;s success.</p>
       </div>
 
       <!-- SNWA Context -->
       <div class="snwa-section fade-up">
         <h2>Southern Nevada Water Authority Context</h2>
-        <p class="snwa-body">In May 2026, the SNWA board approved a memorandum of understanding to negotiate a water transfer arrangement with the San Diego County Water Authority, linked to the Carlsbad Desalination Plant. That arrangement is capped at 56,000 to 62,000 acre-feet per year, depends on California's ongoing cooperation, and represents a paper transfer of existing supply rather than new infrastructure.</p>
-        <p class="snwa-body" style="margin-top:16px;">Project Pacific Inland plans to deliver 560,000 acre-feet per year at Phase 3 from new infrastructure Nevada controls, ten times the scale of the Carlsbad arrangement, without California dependency.</p>
+        <p class="snwa-body">In May 2026, the SNWA board approved a memorandum of understanding to negotiate a water transfer arrangement with the San Diego County Water Authority, linked to the Carlsbad Desalination Plant. That arrangement is capped at 56,000 to 62,000 acre-feet per year, depends on California&rsquo;s ongoing cooperation, and represents a paper transfer of existing supply rather than new infrastructure.</p>
+        <p class="snwa-body" style="margin-top:16px;">Project Pacific Inland plans to deliver 560,000 acre-feet per year at Phase 3 from new infrastructure Nevada controls &mdash; ten times the scale of the Carlsbad arrangement, without California dependency.</p>
       </div>
     </div>
   </section>
 
-  <!-- ============================================================
-       ABOUT
-  ============================================================ -->
+  <!-- ABOUT -->
   <section id="about" class="section-pad" aria-labelledby="about-heading">
     <div class="container">
       <span class="eyebrow fade-up">The Team</span>
@@ -1946,9 +1835,9 @@
 
           <p class="about-body fade-up">Allen Kafchinski is the concept originator and Managing Member of Pacific Inland Water Resources LLC. He is a 24-year mechanical professional, currently a fleet mechanic with a background in power generation infrastructure and self-taught programming spanning 15 years.</p>
 
-          <p class="about-body fade-up">His power generation experience began at Hamakua Energy Partners on the Big Island of Hawaii, a 60MW combined cycle facility, where his father who served as General Manager overseeing the plant's construction and operations would let him assist with major operations such as steam turbine and cumbustion turbine rebuilds. He later served as an instrumentation and tubing technician for a mechanical engineering internship at the Power Systems Development Facility at the National Carbon Capture Center in Wilsonville, Alabama, during active clean energy research operations in 2011.</p>
+          <p class="about-body fade-up">His power generation experience began at Hamakua Energy Partners on the Big Island of Hawaii, a 60MW combined cycle facility, where his father who served as General Manager overseeing the plant&rsquo;s construction and operations would let him assist with major operations such as steam turbine and combustion turbine rebuilds. He later served as an instrumentation and tubing technician for a mechanical engineering internship at the Power Systems Development Facility at the National Carbon Capture Center in Wilsonville, Alabama, during active clean energy research operations in 2011.</p>
 
-          <p class="about-body fade-up">Project Pacific Inland is the product of more than a year of full-time development work completed outside of regular employment hours. The project's 1,200-paragraph technical whitepaper, phased financial model, development plan, action guide, and business plan were developed from scratch by Kafchinski, drawing on his mechanical systems expertise and infrastructure knowledge.</p>
+          <p class="about-body fade-up">Project Pacific Inland is the product of more than a year of full-time development work completed outside of regular employment hours. The project&rsquo;s 1,900-paragraph technical whitepaper, phased financial model, development plan, action guide, and business plan were developed from scratch by Kafchinski, drawing on his mechanical systems expertise and infrastructure knowledge.</p>
 
           <p class="about-body fade-up">Pacific Inland Water Resources LLC is a Nevada limited liability company. Allen Kafchinski is the Managing Member.</p>
         </div>
@@ -1959,14 +1848,12 @@
       </div>
 
       <blockquote class="about-quote fade-up">
-        "The same instinct that drives a mechanic to be addicted to solving problems is what built this project. The Colorado River system has a known failure mode. The fix requires new infrastructure, not more conservation. This is that infrastructure."
+        &ldquo;The same instinct that drives a mechanic to be addicted to solving problems is what built this project. The Colorado River system has a known failure mode. The fix requires new infrastructure, not more conservation. This is that infrastructure.&rdquo;
       </blockquote>
     </div>
   </section>
 
-  <!-- ============================================================
-       CONTACT
-  ============================================================ -->
+  <!-- CONTACT -->
   <section id="contact" aria-labelledby="contact-heading">
     <h2 id="contact-heading" class="contact-heading fade-up">Request a Briefing</h2>
     <p class="contact-sub fade-up">The executive brief, technical whitepaper, and financial model are available to institutional partners, government agencies, and potential development partners upon request.</p>
@@ -2011,9 +1898,7 @@
     </div>
   </section>
 
-  <!-- ============================================================
-       FOOTER
-  ============================================================ -->
+  <!-- FOOTER -->
   <footer id="footer" role="contentinfo">
     <div class="container">
       <div class="footer-grid">
@@ -2051,13 +1936,11 @@
     </div>
   </footer>
 
-  <!-- ============================================================
-       JAVASCRIPT
-  ============================================================ -->
+  <!-- JAVASCRIPT -->
   <script>
     'use strict';
 
-    /* ── Navigation ───────────────────────────────────────────── */
+    /* Navigation */
     const nav = document.getElementById('nav');
     const hamburger = document.getElementById('hamburger');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -2080,7 +1963,7 @@
       });
     });
 
-    /* ── Hero particles ────────────────────────────────────────── */
+    /* Hero particles */
     (function spawnParticles() {
       const container = document.getElementById('hero-particles');
       if (!container) return;
@@ -2101,7 +1984,7 @@
       }
     })();
 
-    /* ── Intersection Observer (fade-up) ──────────────────────── */
+    /* Intersection Observer (fade-up) */
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(e => {
         if (e.isIntersecting) {
@@ -2113,7 +1996,7 @@
 
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
-    /* ── Carousel ─────────────────────────────────────────────── */
+    /* Carousel */
     class Carousel {
       constructor(wrapper) {
         this.wrapper   = wrapper;
@@ -2155,24 +2038,16 @@
       prev() { this.goto(this.current - 1); this.resetTimer(); }
       next() { this.goto(this.current + 1); this.resetTimer(); }
 
-      startTimer() {
-        this.timer = setInterval(() => this.next(), 5000);
-      }
-      resetTimer() {
-        clearInterval(this.timer);
-        this.startTimer();
-      }
+      startTimer() { this.timer = setInterval(() => this.next(), 5000); }
+      resetTimer() { clearInterval(this.timer); this.startTimer(); }
       pauseTimer()  { clearInterval(this.timer); }
       resumeTimer() { this.startTimer(); }
 
       bindEvents() {
         this.prevBtn.addEventListener('click', () => this.prev());
         this.nextBtn.addEventListener('click', () => this.next());
-
         this.wrapper.addEventListener('mouseenter', () => this.pauseTimer());
         this.wrapper.addEventListener('mouseleave', () => this.resumeTimer());
-
-        // Touch/swipe
         this.wrapper.addEventListener('touchstart', e => {
           this.startX = e.changedTouches[0].clientX;
         }, { passive: true });
@@ -2187,7 +2062,7 @@
 
     document.querySelectorAll('[data-carousel]').forEach(el => new Carousel(el));
 
-    /* ── Before/After image slider ────────────────────────────── */
+    /* Before/After image slider */
     (function initCompare() {
       const wrapper  = document.getElementById('site-compare');
       if (!wrapper) return;
@@ -2210,12 +2085,10 @@
       wrapper.addEventListener('mousedown',  e => { dragging = true;  setPosition(e.clientX); e.preventDefault(); });
       document.addEventListener('mousemove', e => onMove(e.clientX));
       document.addEventListener('mouseup',   () => { dragging = false; });
-
       wrapper.addEventListener('touchstart', e => { dragging = true;  setPosition(e.touches[0].clientX); }, { passive: true });
       document.addEventListener('touchmove', e => { if (dragging) setPosition(e.touches[0].clientX); }, { passive: true });
       document.addEventListener('touchend',  () => { dragging = false; });
 
-      // Keyboard: left/right arrows move the divider when wrapper is focused
       wrapper.setAttribute('tabindex', '0');
       wrapper.addEventListener('keydown', e => {
         const rect = wrapper.getBoundingClientRect();
@@ -2225,7 +2098,7 @@
       });
     })();
 
-    /* ── Smooth scroll polyfill shim for anchor links ─────────── */
+    /* Smooth scroll */
     document.querySelectorAll('a[href^="#"]').forEach(link => {
       link.addEventListener('click', e => {
         const target = document.querySelector(link.getAttribute('href'));
